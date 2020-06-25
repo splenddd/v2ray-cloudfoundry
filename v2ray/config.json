@@ -1,18 +1,20 @@
 {
   "inbounds": [
     {
-      "port": 8080,
+      "port": 4443,
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "8c35bef3-d51f-41ab-ac87-7b053410495b",
+            "id": "8c35bef3-d51f-41ab-ac87-7b053410505b",
             "alterId": 64
           }
         ]
       },
       "streamSettings": {
-        "network":"ws"
+        "network":"ws",
+        "wsSettings": {
+        "path": "/ray"
       }
     }
   ],
