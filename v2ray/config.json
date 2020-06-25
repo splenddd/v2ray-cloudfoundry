@@ -15,6 +15,7 @@
         "network":"ws",
         "wsSettings": {
         "path": "/ray"
+        }
       }
     }
   ],
